@@ -1,0 +1,24 @@
+# Python 3.12
+altair==6.2.2
+faiss-cpu==1.15.0
+langchain-community==0.4.2
+langchain-huggingface==1.2.2
+langchain-openai==1.6.0
+langchain-pinecone==0.2.13
+langgraph==1.2.11
+langgraph-checkpoint==4.2.0
+langsmith==0.11.1
+openai==3.3.1
+openpyxl==3.1.5
+pandas==3.0.5
+pinecone==7.3.0
+pydantic-settings==2.15.0
+pyodbc==5.3.0
+pypdf==6.16.2
+
+# Ingestion script (scripts/ingest_legacy_data.py)
+pymssql>=2.3,<3
+python-dotenv>=1.0,<2
+
+# Tests
+pytest>=8,<9
